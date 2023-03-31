@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>projeto orientado | contato</title>
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- 
+      Página web criada por: Luísa Cruz e Vinicius Florencio
+     -->
+
+    <h1>&#60;projeto-orientado&#62;</h1>
+
+    <div>
+        <p class="nav"><a href='home.html'>&#60;home&#62;</a> | <a href="luisa.html">&#60;luísa&#62;</a> |
+            <a href='vinicius.html'>&#60;vinicius&#62;</a> | <a href='curiosidades'>&#60;tabela-de-curiosidades&#62;</a>
+            | <a href="favoritos.html">&#60;sites-favoritos&#62;</a> | <a
+                href="tags.html">&#60;descobrindo-tags&#62;</a> | <a
+                href="propriedades.html">&#60;descobrindo-propriedades-css&#62;</a> | &#60;contato&#62;
+        </p>
+    </div>
+
+    <p class="title">dados pessoais</p>
+    <p class="equalcon">=</p>
+
+    <div class="textcon">
+        <form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="post">
+
+            <p>
+                <label for="nome" class="titlecon">nome:</label><br>
+                <input type="text" name="nome" placeholder="digite seu nome e sobrenome" id="nome" size="30"
+                    maxlength="100" required>
+            </p>
+
+            <p>
+                <label for="email" class="titlecon">e-mail:</label><br>
+                <input type="email" name="email" placeholder="digite seu endereço de e-mail" id="email" size="30"
+                    maxlength="100" required>
+            </p>
+
+            <div>
+                <p class='titlecon'>gênero:</p>
+
+                <p>
+                    <label for="female">feminino</label>
+                    <input type="radio" name="gender" id="female">
+                </p>
+
+                <p>
+                    <label for="male">masculino</label>
+                    <input type="radio" name="gender" id="male">
+                </p>
+
+                <p>
+                    <label for="others">outros</label>
+                    <input type="radio" name="gender" id="others">
+                </p>
+
+                <p>
+                    <label for="none">prefiro não dizer</label>
+                    <input type="radio" name="gender" id="none">
+                </p>
+            </div>
+
+            <div>
+                <p class="titlecon">estado:</p>
+                <p>
+                    <select name="lista2" id="lista2" size="1">
+                        <option value="">-- escolha --</option>
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AP</option>
+                        <option value="4">AM</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="7">DF</option>
+                        <option value="8">ES</option>
+                        <option value="9">GO</option>
+                        <option value="10">MA</option>
+                        <option value="11">MT</option>
+                        <option value="12">MS</option>
+                        <option value="13">MG</option>
+                        <option value="14">PA</option>
+                        <option value="15">PB</option>
+                        <option value="16">PR</option>
+                        <option value="17">PE</option>
+                        <option value="18">PI</option>
+                        <option value="19">RJ</option>
+                        <option value="20">RN</option>
+                        <option value="21">RS</option>
+                        <option value="22">RO</option>
+                        <option value="23">RR</option>
+                        <option value="24">SC</option>
+                        <option value="25">SP</option>
+                        <option value="26">SE</option>
+                        <option value="27">TO</option>
+                    </select>
+                </p>
+            </div>
+
+            <div>
+                <p class="titlecon">em quais das linguas abaixo você possui experiência?:</p>
+                <p>
+                    <label for="english"> inglês </label>
+                    <input type="checkbox" id="english" name="language" value="inglês">
+                </p>
+
+                <p>
+                    <label for="mandarin"> mandarim </label>
+                    <input type="checkbox" id="mandarin" name="language" value="mandarim">
+                </p>
+
+                <p>
+                    <label for="spanish"> espanhol </label>
+                    <input type="checkbox" id="spanish" name="language" value="espanhol">
+                </p>
+
+                <p>
+                    <label for="french"> francês </label>
+                    <input type="checkbox" id="french" name="language" value="francês">
+                </p>
+
+                <p>
+                    <label for="russian"> russo </label>
+                    <input type="checkbox" id="russian" name="language" value="russo">
+                </p>
+
+                <p>
+                    <label for="german"> alemão </label>
+                    <input type="checkbox" id="german" name="language" value="alemão">
+                </p>
+
+                <p>
+                    <label for="other"> outro </label>
+                    <input type="checkbox" id="other" name="language" value="outro">
+                </p>
+            </div>
+
+            <div>
+                <p class="titlecon">sua idade está entre:</p>
+                <select name="age" id="age" size="5">
+                    <option label="5-10" value="5-10">5-10</option>
+                    <option label="10-15" value="10-15">10-15</option>
+                    <option label="15-20" value="15-20">15-20</option>
+                    <option label="20-30" value="20-30">20-30</option>
+                    <option label="30-40" value="30-40">30-40</option>
+                    <option label="40-50" value="40-50">40-50</option>
+                    <option label="60+" value="60+">60+</option>
+                </select>
+            </div>
+
+            <div>
+                <p class="titlecon">revise as informações inseridas antes de confirmar o cadastro para contato:</p>
+                <input type="submit" value="cadastrar">
+                <button type="reset">limpar</button>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <p>&#60;/projeto-web-desenvolvido-por-luísa-cruz-e-vinicius-florencio-para-a-disciplina-de-ppsi-i-do-curso-tecnólogo-em-sistemas-para-internet&#62;
+        </p>
+    </footer>
+
+</body>
+
+</html>
